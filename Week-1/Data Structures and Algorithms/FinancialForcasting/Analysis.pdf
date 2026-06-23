@@ -1,0 +1,32 @@
+1. What is Recursion?
+
+Recursion is a technique where a function calls itself to solve smaller versions of the same problem until it reaches a base condition.
+
+In this problem:
+-> We reduce years by 1 in each call
+-> Stop when years == 0
+
+2. Time Complexity
+-> Each function call reduces years by 1.
+-> So the function runs once per year:
+
+Time Complexity: O(n)
+Where:
+-> n = number of years
+
+3. Space Complexity
+Because of recursive function calls, stack memory is used.
+Space Complexity: O(n)
+
+4. Limitation of recursion
+-> Uses extra memory (stack calls)
+-> Slower for large inputs
+-> Can cause stack overflow if years is very large
+
+5. Optimization
+-> Instead of recursion, we can use direct formula:
+
+>   double result = initialValue * Math.pow(1 + growthRate, years);
+Complexity:
+Time: O(1)
+Space: O(1)

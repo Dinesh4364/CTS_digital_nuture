@@ -1,0 +1,24 @@
+Big O Notation
+
+Big O notation measures how fast an algorithm runs as input size increases.
+
+Linear Search
+-> Best case: O(1) (found at first position)
+-> Average case: O(n/2) → O(n)
+-> Worst case: O(n) (element at end or not found)
+
+>Checks each element one by one.
+
+Binary Search
+-> Best case: O(1) (middle element)
+-> Average case: O(log n)
+-> Worst case: O(log n)
+
+>Works only on sorted arrays and eliminates half search space each step.
+
+Binary Search is better for Ecommerce because:
+
+-> E-commerce has huge product data
+-> Searching must be fast
+-> Data can be sorted by name / ID
+-> O(log n) is much faster than O(n)

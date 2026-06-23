@@ -1,0 +1,6 @@
+C:\Dinesh\CTS\Week-1\Design Patterns and Principles\FactoryMethodPatternExample\src>javac *.java
+
+C:\Dinesh\CTS\Week-1\Design Patterns and Principles\FactoryMethodPatternExample\src>java FactoryTest 
+Opening Word Document
+Opening PDF Document
+Opening Excel Document

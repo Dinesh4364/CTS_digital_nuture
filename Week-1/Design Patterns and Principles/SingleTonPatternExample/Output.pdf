@@ -1,0 +1,9 @@
+C:\Dinesh\CTS\Week-1\Design Patterns and Principles\SingleTonPatternExample\src>javac Logger.java SingletonTest.java
+
+C:\Dinesh\CTS\Week-1\Design Patterns and Principles\SingleTonPatternExample\src>java SingletonTest.java
+Logger instance created
+[LOG] First message
+[LOG] Second message
+logger1 hashcode: 521081105
+logger2 hashcode: 521081105
+Only one Logger instance exists.
